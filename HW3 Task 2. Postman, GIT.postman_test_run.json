@@ -1,0 +1,142 @@
+{
+	"id": "bc2fbfd1-f4fa-4fc4-a7e4-58d213b5df1a",
+	"name": "HW3 Task 2. Postman, GIT",
+	"timestamp": "2021-03-22T11:02:13.472Z",
+	"collection_id": "b4a9a6cc-0915-4782-9a7f-58773786d0ec",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 4,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "2dc612bd-ebe1-45e0-bf58-26aa582ec884",
+			"name": "object_info_1",
+			"url": "http://116.203.27.46:5002/object_info_1?age=33&weight=90&name=Jerk",
+			"time": 82,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				82
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "9e9b5db0-4a5b-4ce2-be7e-e63290584bdf",
+			"name": "object_info_2",
+			"url": "http://116.203.27.46:5002/object_info_2?age=33&salary=1000&Name=Jerk",
+			"time": 73,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				73
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "b6de236b-ee4e-43e1-b9c0-c9b3bceb0375",
+			"name": "user_info_3",
+			"url": "http://116.203.27.46:5002/user_info_3",
+			"time": 80,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				80
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "4f92b3bc-0228-4d88-8a8a-26504bee510a",
+			"name": "user_info_4",
+			"url": "http://116.203.27.46:5002/user_info_4",
+			"time": 70,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				70
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 305,
+	"collection": {
+		"requests": [
+			{
+				"id": "2dc612bd-ebe1-45e0-bf58-26aa582ec884",
+				"method": "GET"
+			},
+			{
+				"id": "9e9b5db0-4a5b-4ce2-be7e-e63290584bdf",
+				"method": "GET"
+			},
+			{
+				"id": "b6de236b-ee4e-43e1-b9c0-c9b3bceb0375",
+				"method": "POST"
+			},
+			{
+				"id": "4f92b3bc-0228-4d88-8a8a-26504bee510a",
+				"method": "POST"
+			}
+		]
+	}
+}
