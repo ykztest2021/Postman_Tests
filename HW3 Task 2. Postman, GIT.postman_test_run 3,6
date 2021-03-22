@@ -1,0 +1,80 @@
+{
+	"id": "1c03269d-3393-4f62-9de2-bbfc4db3e894",
+	"name": "HW3 Task 2. Postman, GIT",
+	"timestamp": "2021-03-22T14:28:41.135Z",
+	"collection_id": "b4a9a6cc-0915-4782-9a7f-58773786d0ec",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 2,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "af8f798a-e4a8-4809-ae97-51ee4a27cb97",
+			"name": "object_info_3",
+			"url": "http://116.203.27.46:5002/object_info_3?age=33&salary=1000&name=Jerk",
+			"time": 72,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				72
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "83c81789-b695-4862-9726-3110464804b1",
+			"name": "user_info_2",
+			"url": "http://116.203.27.46:5002/user_info_2",
+			"time": 76,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				76
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 148,
+	"collection": {
+		"requests": [
+			{
+				"id": "af8f798a-e4a8-4809-ae97-51ee4a27cb97",
+				"method": "GET"
+			},
+			{
+				"id": "83c81789-b695-4862-9726-3110464804b1",
+				"method": "POST"
+			}
+		]
+	}
+}
